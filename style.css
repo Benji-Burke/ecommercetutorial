@@ -37,9 +37,38 @@ footer{
     color: white;
 }
 
+
+/*
+common
+*/
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff8000;
+}
+
+.links {
+    color: white;
+    padding: 1rem;
+}
+
+.brand{
+    color: #ffffff;
+    font-size: 3rem;
+    font-weight: bold;
+
+}
 .row{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
+
+.row.center {
+    justify-content: center;
+}
+
